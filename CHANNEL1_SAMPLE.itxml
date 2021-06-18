@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Schedule name="CH1_SAMPLE">
+    <ScheduledEvent originalStartTime="2021-06-10T07:13:22.4800000" extended="false">
+        <Summary instanceId="aa5642d8-9c58-4d03-bd00-19db04688e63" id="771db88a-65cf-421c-a42d-42203b4dca6d">
+            <Name>BREAK 07:13</Name>
+            <Title>BREAK 07:13</Title>
+            <Start>2021-06-10T07:13:22.48</Start>
+            <Duration>
+                <Days>0</Days>
+                <Time>00:11:41.4400000</Time>
+            </Duration>
+            <EventType>TXSegmentEvent</EventType>
+            <UserData />
+            <GlobalID />
+            <ContentType>SEGMENT</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82826</PlaylistID>
+            <ClipAvailable>true</ClipAvailable>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>No Media Handle,New,New</CacheStatus>
+            <CacheState>New</CacheState>
+            <ItemState>NotReady</ItemState>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlSegmentEvent">
+            <Duration>
+                <Days>0</Days>
+                <Time>00:00:00</Time>
+            </Duration>
+            <LiveRecording enabled="false">
+                <RecordClip />
+            </LiveRecording>
+            <InEffect>
+                <Effect />
+            </InEffect>
+            <FollowingEffect>
+                <Effect />
+            </FollowingEffect>
+            <DefaultEffect>
+                <Effect />
+            </DefaultEffect>
+        </Details>
+    </ScheduledEvent>
+    <ScheduledEvent originalStartTime="2021-06-10T07:13:25.5200000" extended="false">
+        <Summary instanceId="8c70a0a8-cb6f-48e3-8969-2e8cad44b9d1" id="acab719b-78fc-4776-978f-4f2c1dc2c065" parentId="771db88a-65cf-421c-a42d-42203b4dca6d">
+            <Name>QDR_0001</Name>
+            <Title>2021 QDR</Title>
+            <Start>2021-06-10T07:13:25.52</Start>
+            <Duration>
+                <Days>0</Days>
+                <Time>00:00:20</Time>
+            </Duration>
+            <EventType>TXMediaEvent</EventType>
+            <UserData>QUADRO PROGRAM;3572285</UserData>
+            <GlobalID />
+            <Notes>AZUL
+            </Notes>
+            <ContentType>QUADRO PROGRAM</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82828</PlaylistID>
+            <PreviewPath>\\QDR_0001.mxf</PreviewPath>
+            <ClipAvailable>true</ClipAvailable>
+            <HoldPoints>true</HoldPoints>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>MediaHandle Unheld,Checked,Cached</CacheStatus>
+            <DevicePool />
+            <TransferState />
+            <CacheState>Cached</CacheState>
+            <ItemState>Ready</ItemState>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlMediaEvent">
+            <Effects>
+                <Effect>
+                    <Effect />
+                </Effect>
+                <PIP>
+                    <Destination>
+                        <X>10</X>
+                        <Y>10</Y>
+                        <Width>480</Width>
+                        <Height>270</Height>
+                    </Destination>
+                    <File />
+                </PIP>
+            </Effects>
+            <Media>
+                <FileName>\\Cache\QDR_0001.mxf</FileName>
+                <ActiveRegion>AR_PassThrough</ActiveRegion>
+                <Duration>
+                    <Days>0</Days>
+                    <Time>00:00:20</Time>
+                </Duration>
+                <MediaDuration>
+                    <Days>0</Days>
+                    <Time>00:00:20</Time>
+                </MediaDuration>
+                <OutPoint>
+                    <Days>0</Days>
+                    <Time>00:00:20</Time>
+                </OutPoint>
+                <OutputChannel>OnBoth</OutputChannel>
+                <SourceFormat>SF_16x9</SourceFormat>
+                <WideScreen>true</WideScreen>
+                <HoldPoints>true</HoldPoints>
+            </Media>
+        </Details>
+    </ScheduledEvent>
+    <ScheduledEvent originalStartTime="2021-06-10T07:13:26.9200000" extended="false">
+        <Summary instanceId="37ad6476-9ec8-475a-a31d-e1532de1b090" id="442294a7-bd73-4df9-98ca-8bc8d9012563" parentId="acab719b-78fc-4776-978f-4f2c1dc2c065">
+            <Name>XG_QUADRO</Name>
+            <Title>XG_QUADRO</Title>
+            <Start>2021-06-10T07:13:26.92</Start>
+            <SecondaryOffset>
+                <Days>0</Days>
+                <Time>00:00:01.4000000</Time>
+            </SecondaryOffset>
+            <Duration>
+                <Days>0</Days>
+                <Time>00:00:18.5600000</Time>
+            </Duration>
+            <EventType>TXVertigoXGEvent</EventType>
+            <TimeMode>StartPlus</TimeMode>
+            <UserData>173864</UserData>
+            <GlobalID />
+            <ContentType>SECONDARY EVENT</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82829</PlaylistID>
+            <ClipAvailable>true</ClipAvailable>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>No Media Handle,New,New</CacheStatus>
+            <CacheState>New</CacheState>
+            <ItemState>Ready</ItemState>
+            <SecondaryEvent>true</SecondaryEvent>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlVertigoXGEvent">
+            <Template>XG_QUADRO</Template>
+            <Mode>DURATION</Mode>
+            <DSKLayer>1</DSKLayer>
+            <Options>
+                <Data></Data>
+            </Options>
+        </Details>
+    </ScheduledEvent>
+    <ScheduledEvent originalStartTime="2021-06-10T07:25:03.9200000" extended="false">
+        <Summary instanceId="da7ac6e2-6199-4542-8975-28a2acf3b270" id="073cb9af-477a-4dbe-8672-f90401a806d3">
+            <Name>PGM_1</Name>
+            <Title>Érri Potar</Title>
+            <Start>2021-06-10T07:25:03.92</Start>
+            <Duration>
+                <Days>0</Days>
+                <Time>01:47:37.4400000</Time>
+            </Duration>
+            <EventType>TXMediaEvent</EventType>
+            <UserData>PROGRAM;3572310</UserData>
+            <GlobalID />
+            <Notes></Notes>
+            <ContentType>PROGRAM</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82847</PlaylistID>
+            <PreviewPath>\\PGM_1.mxf</PreviewPath>
+            <ClipAvailable>true</ClipAvailable>
+            <HoldPoints>true</HoldPoints>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>MediaHandle Unheld,Checked,New</CacheStatus>
+            <DevicePool />
+            <TransferState />
+            <CacheState>New</CacheState>
+            <ItemState>Ready</ItemState>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlMediaEvent">
+            <Effects>
+                <Effect>
+                    <Effect />
+                </Effect>
+                <PIP>
+                    <Destination>
+                        <X>10</X>
+                        <Y>10</Y>
+                        <Width>480</Width>
+                        <Height>270</Height>
+                    </Destination>
+                    <File />
+                </PIP>
+            </Effects>
+            <Media>
+                <FileName>\\PGM_1.mxf</FileName>
+                <ActiveRegion>AR_PassThrough</ActiveRegion>
+                <Duration>
+                    <Days>0</Days>
+                    <Time>01:47:37.4400000</Time>
+                </Duration>
+                <MediaDuration>
+                    <Days>0</Days>
+                    <Time>01:47:37.4400000</Time>
+                </MediaDuration>
+                <OutPoint>
+                    <Days>0</Days>
+                    <Time>01:47:37.4400000</Time>
+                </OutPoint>
+                <OutputChannel>OnBoth</OutputChannel>
+                <SourceFormat>SF_16x9</SourceFormat>
+                <WideScreen>true</WideScreen>
+                <HoldPoints>true</HoldPoints>
+            </Media>
+        </Details>
+    </ScheduledEvent>
+    <ScheduledEvent originalStartTime="2021-06-10T07:25:04.9200000" extended="false">
+        <Summary instanceId="df5e0529-f469-40fd-bc2b-3de90229b304" id="dd254dc4-fb05-406a-b920-5daef1ec5fa9" parentId="073cb9af-477a-4dbe-8672-f90401a806d3">
+            <Name>XG_OLD_LOGO</Name>
+            <Title>XG_OLD_LOGO</Title>
+            <Start>2021-06-10T07:25:04.92</Start>
+            <SecondaryOffset>
+                <Days>0</Days>
+                <Time>00:00:01</Time>
+            </SecondaryOffset>
+            <Duration>
+                <Days>0</Days>
+                <Time>01:47:35.4400000</Time>
+            </Duration>
+            <EventType>TXVertigoXGEvent</EventType>
+            <TimeMode>StartPlus</TimeMode>
+            <UserData>173868</UserData>
+            <GlobalID />
+            <ContentType>SECONDARY EVENT</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82848</PlaylistID>
+            <ClipAvailable>true</ClipAvailable>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>No Media Handle,New,New</CacheStatus>
+            <CacheState>New</CacheState>
+            <ItemState>Ready</ItemState>
+            <SecondaryEvent>true</SecondaryEvent>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlVertigoXGEvent">
+            <Template>XG_OLD_LOGO</Template>
+            <Mode>DURATION</Mode>
+            <DSKLayer>2</DSKLayer>
+            <Options>
+                <Data></Data>
+            </Options>
+        </Details>
+    </ScheduledEvent>
+        <ScheduledEvent originalStartTime="2021-06-10T07:13:22.4800000" extended="false">
+        <Summary instanceId="aa5642d8-9c58-4d03-bd00-19db04688e63" id="771db88a-65cf-421c-a42d-42203b4dca6d">
+            <Name>BREAK 07:13</Name>
+            <Title>BREAK 07:13</Title>
+            <Start>2021-06-10T07:13:22.48</Start>
+            <Duration>
+                <Days>0</Days>
+                <Time>00:11:41.4400000</Time>
+            </Duration>
+            <EventType>TXSegmentEvent</EventType>
+            <UserData />
+            <GlobalID />
+            <ContentType>SEGMENT</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82826</PlaylistID>
+            <ClipAvailable>true</ClipAvailable>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>No Media Handle,New,New</CacheStatus>
+            <CacheState>New</CacheState>
+            <ItemState>NotReady</ItemState>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlSegmentEvent">
+            <Duration>
+                <Days>0</Days>
+                <Time>00:00:00</Time>
+            </Duration>
+            <LiveRecording enabled="false">
+                <RecordClip />
+            </LiveRecording>
+            <InEffect>
+                <Effect />
+            </InEffect>
+            <FollowingEffect>
+                <Effect />
+            </FollowingEffect>
+            <DefaultEffect>
+                <Effect />
+            </DefaultEffect>
+        </Details>
+    </ScheduledEvent>
+    <ScheduledEvent originalStartTime="2021-06-10T07:13:25.5200000" extended="false">
+        <Summary instanceId="8c70a0a8-cb6f-48e3-8969-2e8cad44b9d1" id="acab719b-78fc-4776-978f-4f2c1dc2c065" parentId="771db88a-65cf-421c-a42d-42203b4dca6d">
+            <Name>QDR_0001</Name>
+            <Title>2021 QDR</Title>
+            <Start>2021-06-10T07:13:25.52</Start>
+            <Duration>
+                <Days>0</Days>
+                <Time>00:00:20</Time>
+            </Duration>
+            <EventType>TXMediaEvent</EventType>
+            <UserData>QUADRO PROGRAM;3572285</UserData>
+            <GlobalID />
+            <Notes>AZUL
+            </Notes>
+            <ContentType>QUADRO PROGRAM</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82828</PlaylistID>
+            <PreviewPath>\\QDR_0001.mxf</PreviewPath>
+            <ClipAvailable>true</ClipAvailable>
+            <HoldPoints>true</HoldPoints>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>MediaHandle Unheld,Checked,Cached</CacheStatus>
+            <DevicePool />
+            <TransferState />
+            <CacheState>Cached</CacheState>
+            <ItemState>Ready</ItemState>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlMediaEvent">
+            <Effects>
+                <Effect>
+                    <Effect />
+                </Effect>
+                <PIP>
+                    <Destination>
+                        <X>10</X>
+                        <Y>10</Y>
+                        <Width>480</Width>
+                        <Height>270</Height>
+                    </Destination>
+                    <File />
+                </PIP>
+            </Effects>
+            <Media>
+                <FileName>\\Cache\QDR_0001.mxf</FileName>
+                <ActiveRegion>AR_PassThrough</ActiveRegion>
+                <Duration>
+                    <Days>0</Days>
+                    <Time>00:00:20</Time>
+                </Duration>
+                <MediaDuration>
+                    <Days>0</Days>
+                    <Time>00:00:20</Time>
+                </MediaDuration>
+                <OutPoint>
+                    <Days>0</Days>
+                    <Time>00:00:20</Time>
+                </OutPoint>
+                <OutputChannel>OnBoth</OutputChannel>
+                <SourceFormat>SF_16x9</SourceFormat>
+                <WideScreen>true</WideScreen>
+                <HoldPoints>true</HoldPoints>
+            </Media>
+        </Details>
+    </ScheduledEvent>
+    <ScheduledEvent originalStartTime="2021-06-10T07:13:26.9200000" extended="false">
+        <Summary instanceId="37ad6476-9ec8-475a-a31d-e1532de1b090" id="442294a7-bd73-4df9-98ca-8bc8d9012563" parentId="acab719b-78fc-4776-978f-4f2c1dc2c065">
+            <Name>XG_QADRO</Name>
+            <Title>XG_QADRO</Title>
+            <Start>2021-06-10T07:13:26.92</Start>
+            <SecondaryOffset>
+                <Days>0</Days>
+                <Time>00:00:01.4000000</Time>
+            </SecondaryOffset>
+            <Duration>
+                <Days>0</Days>
+                <Time>00:00:18.5600000</Time>
+            </Duration>
+            <EventType>TXVertigoXGEvent</EventType>
+            <TimeMode>StartPlus</TimeMode>
+            <UserData>173864</UserData>
+            <GlobalID />
+            <ContentType>SECONDARY EVENT</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82829</PlaylistID>
+            <ClipAvailable>true</ClipAvailable>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>No Media Handle,New,New</CacheStatus>
+            <CacheState>New</CacheState>
+            <ItemState>Ready</ItemState>
+            <SecondaryEvent>true</SecondaryEvent>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlVertigoXGEvent">
+            <Template>XG_QADRO</Template>
+            <Mode>DURATION</Mode>
+            <DSKLayer>1</DSKLayer>
+            <Options>
+                <Data></Data>
+            </Options>
+        </Details>
+    </ScheduledEvent>
+    <ScheduledEvent originalStartTime="2021-06-10T07:25:03.9200000" extended="false">
+        <Summary instanceId="da7ac6e2-6199-4542-8975-28a2acf3b270" id="073cb9af-477a-4dbe-8672-f90401a806d3">
+            <Name>PGM_1</Name>
+            <Title>Érri Potar</Title>
+            <Start>2021-06-10T07:25:03.92</Start>
+            <Duration>
+                <Days>0</Days>
+                <Time>01:47:37.4400000</Time>
+            </Duration>
+            <EventType>TXMediaEvent</EventType>
+            <UserData>PROGRAM;3572310</UserData>
+            <GlobalID />
+            <Notes></Notes>
+            <ContentType>PROGRAM</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82847</PlaylistID>
+            <PreviewPath>\\PGM_1.mxf</PreviewPath>
+            <ClipAvailable>true</ClipAvailable>
+            <HoldPoints>true</HoldPoints>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>MediaHandle Unheld,Checked,New</CacheStatus>
+            <DevicePool />
+            <TransferState />
+            <CacheState>New</CacheState>
+            <ItemState>Ready</ItemState>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlMediaEvent">
+            <Effects>
+                <Effect>
+                    <Effect />
+                </Effect>
+                <PIP>
+                    <Destination>
+                        <X>10</X>
+                        <Y>10</Y>
+                        <Width>480</Width>
+                        <Height>270</Height>
+                    </Destination>
+                    <File />
+                </PIP>
+            </Effects>
+            <Media>
+                <FileName>\\PGM_1.mxf</FileName>
+                <ActiveRegion>AR_PassThrough</ActiveRegion>
+                <Duration>
+                    <Days>0</Days>
+                    <Time>01:47:37.4400000</Time>
+                </Duration>
+                <MediaDuration>
+                    <Days>0</Days>
+                    <Time>01:47:37.4400000</Time>
+                </MediaDuration>
+                <OutPoint>
+                    <Days>0</Days>
+                    <Time>01:47:37.4400000</Time>
+                </OutPoint>
+                <OutputChannel>OnBoth</OutputChannel>
+                <SourceFormat>SF_16x9</SourceFormat>
+                <WideScreen>true</WideScreen>
+                <HoldPoints>true</HoldPoints>
+            </Media>
+        </Details>
+    </ScheduledEvent>
+    <ScheduledEvent originalStartTime="2021-06-10T07:25:04.9200000" extended="false">
+        <Summary instanceId="df5e0529-f469-40fd-bc2b-3de90229b304" id="dd254dc4-fb05-406a-b920-5daef1ec5fa9" parentId="073cb9af-477a-4dbe-8672-f90401a806d3">
+            <Name>XG_CH1_LOGO</Name>
+            <Title>XG_CH1_LOGO</Title>
+            <Start>2021-06-10T07:25:04.92</Start>
+            <SecondaryOffset>
+                <Days>0</Days>
+                <Time>00:00:01</Time>
+            </SecondaryOffset>
+            <Duration>
+                <Days>0</Days>
+                <Time>01:47:35.4400000</Time>
+            </Duration>
+            <EventType>TXVertigoXGEvent</EventType>
+            <TimeMode>StartPlus</TimeMode>
+            <UserData>173868</UserData>
+            <GlobalID />
+            <ContentType>SECONDARY EVENT</ContentType>
+            <AutoDuration>false</AutoDuration>
+            <ChannelFrameRate>FPS25</ChannelFrameRate>
+        </Summary>
+        <Automation xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlAutomation">
+            <PlaylistID>82848</PlaylistID>
+            <ClipAvailable>true</ClipAvailable>
+            <CacheProgress>-1</CacheProgress>
+            <CacheTransferRate>-1</CacheTransferRate>
+            <CacheStatus>No Media Handle,New,New</CacheStatus>
+            <CacheState>New</CacheState>
+            <ItemState>Ready</ItemState>
+            <SecondaryEvent>true</SecondaryEvent>
+        </Automation>
+        <Details xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" p2:type="XmlVertigoXGEvent">
+            <Template>XG_CH1_LOGO</Template>
+            <Mode>DURATION</Mode>
+            <DSKLayer>2</DSKLayer>
+            <Options>
+                <Data></Data>
+            </Options>
+        </Details>
+    </ScheduledEvent>
+</Schedule>
